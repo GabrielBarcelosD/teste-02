@@ -1,0 +1,83 @@
+header {
+
+    margin-top: 3rem;
+    width: 100%;
+
+    .container {
+    
+        width: 100%;
+        display: flex;
+
+        ul {
+            width: 100%;
+            right: 8rem;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li {
+                margin-left: 6.5rem;
+
+                a {
+                    width: 13.5rem;
+                    height: 3.6rem;
+                    color: #242323;
+                    font-family: Poppins;
+                    font-size: 1.4rem;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 0.022rem;
+
+                }
+            }
+        }
+
+        .marca {
+            width: 100%;
+            color: #000;
+            font-family: Poppins;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: 1.2px;
+        }
+
+        button {
+            width: 94px;
+            height: 45px;
+            flex-shrink: 0;
+            border-radius: 7px;
+            background: #000;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            top: 0.7rem;
+
+
+        }
+    }
+
+    @media(max-width: 1350px) {
+        header {
+            button {
+                position: relative;
+                right: 3rem;
+            }
+        }
+    }
+
+    @media(max-width: 933px) {
+            .container {
+                ul{
+                display: none;
+                }
+                button{
+                    right: 0.1rem;
+                }
+            }
+        }
+    }
